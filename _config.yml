@@ -7,7 +7,7 @@ plugins:
 #check windows push
 exclude:
   - "/vendor/"
-
+future: true
 # Site settings
 title: Centrarium
 subtitle: "A simple yet classy theme for your Jekyll website or blog"
