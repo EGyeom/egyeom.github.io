@@ -41,25 +41,45 @@ int solution(vector<int> citations) {
         }
         else ordered_citations.push_back(citations[i]);
     }
-    int index = size-1;
-    int value = ordered_citations[index];
-    int startIndex = index - value;
-    count = 0;
-    while(1)
-    {
-        if(startIndex < 0)
+     int count =0;
+     int select = ordered_citations[0];
+     while(1)
+     {
+        //  for(int i =count; i < size; i++)
+        //  {
+        //      if(ordered_citations[select] == citations[i])
+        //      {
+        //          count++;
+        //      }
+        //      else break;
+        //  }
+        //  if(count >= ordered_citations[select])
+        //  {
+        //      break;
+        //  }
+        //  else select++;
+        for(int i =count ; i < size; i++)
         {
-            index--;
-            value = ordered_citations[index];
-            startIndex = index - value;
+            if(citations[i] == select)
+            {
+                count++;
+            }
+            else break;
         }
-        
-    }
 
+        if(select <= count)
+        {
+            break;
+        }
+        else select--;
+     }
+
+    int answer = select;//ordered_citations[select];
+    return answer;
 }
 
 int main()
 {
-    vector<int> v = {1,1,1,1,5,5,5,6,6,6,6,6,6};
+    vector<int> v = {0,0,0,0,1};
     printf("%d\n", solution(v));
 }
