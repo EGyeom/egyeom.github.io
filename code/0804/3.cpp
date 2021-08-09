@@ -28,10 +28,48 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <string.h>
 using namespace std;
+
 
 bool solution(vector<string> phone_book) {
     bool answer = true;
-    
+    sort(phone_book.begin(), phone_book.end());
+    int size = phone_book.size();
+    int index = 0;
+    while(1)
+    {
+        int len = phone_book[index].length();
+        for (int j = index+1; j < size; j++)
+        {
+            if(strncmp(phone_book[index].c_str(),phone_book[j].c_str(),len) == 0)
+            {
+                answer = false;
+                break;
+            }
+            else
+            {
+                index = j;
+                break;
+            }
+        }
+        if(answer == false)
+        {
+            break;
+        }
+        if(index >= size-1)
+        {
+            break;
+        }
+    }
     return answer;
 }
+
+int main()
+{
+    vector<string> phone_book = {"1234","12","1112"};
+
+    printf("%d\n",solution(phone_book));
+}
+
+
