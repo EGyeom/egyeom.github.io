@@ -27,7 +27,7 @@ logo: "/assets/logo.png"
 markdown: kramdown
 inter_post_navigation: false
 highlightjs_theme: "monokai-sublime"
-
+toc: true
 # Pagination Settings
 # https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 pagination:

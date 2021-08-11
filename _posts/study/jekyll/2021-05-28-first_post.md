@@ -3,9 +3,10 @@ layout: post
 title:  "Hello to Jekyll!"
 date:   2021-05-28 08:43:59
 author: Gyeom
-categories: Jekyll
-tags:	jekyll welcome
+categories: Study
+tags:	jekyll
 cover:  "/assets/instacode.png"
+toc: true
 ---
 
 <!--
