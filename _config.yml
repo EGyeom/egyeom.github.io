@@ -10,11 +10,11 @@ exclude:
 future: true
 # Site settings
 title: My cheat note for studying
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
+subtitle: "공부한것을 잊지 않기위한 정리 및 공유 블로그"
 email: ug4306@gmail.com
 name: Gyeom
 description: >
-  공부한것을 잊지 않기위한 정리 및 공유 블로그
+  "파이팅"
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.

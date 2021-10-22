@@ -217,7 +217,7 @@ pre code.hljs {
 	// Remove this to make header scrollable again
 	margin-top: 66px;
 	.wrapper {
-		@include outer-container;
+		@include outer-container(60%);
 		padding: 1em;
 	}
 	/*
