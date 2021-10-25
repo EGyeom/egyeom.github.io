@@ -16,6 +16,9 @@ main_nav: true
   <ul class="posts-list">
   {% for post in site.categories[cat] %}
     <li>
+    {% for tag in post.tags %} 
+      <span class="pre-tag" style=" color:green; font-weitght:bold; background:white; font-style:italic">[{{tag}}]</span>
+    {% endfor %}
       <strong>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </strong>
