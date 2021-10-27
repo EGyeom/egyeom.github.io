@@ -1,86 +1,28 @@
 ---
 ---
-
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url>
-<loc>https://egyeom.github.io/</loc>
-<lastmod>2021-10-27T05:44:33+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://egyeom.github.io/about/</loc>
-<lastmod>2021-10-27T05:44:33+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://egyeom.github.io/posts/</loc>
-<lastmod>2021-10-27T05:44:33+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://egyeom.github.io/tag/</loc>
-<lastmod>2021-10-27T05:44:33+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://egyeom.github.io/typography/</loc>
-<lastmod>2021-10-27T05:44:33+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://egyeom.github.io/jekyll/2015/04/20/welcome-to-jekyll.html</loc>
-<lastmod>2021-10-27T05:44:33+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://egyeom.github.io/jekyll/2015/04/18/welcome-to-jekyll.html</loc>
-<lastmod>2021-10-27T05:44:33+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://egyeom.github.io/study/2021/10/22/DataType.html</loc>
-<lastmod>2021-10-27T05:44:33+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://egyeom.github.io/study/2021/06/14/study.html</loc>
-<lastmod>2021-10-27T05:44:33+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://egyeom.github.io/study/2021/05/28/first_post.html</loc>
-<lastmod>2021-10-27T05:44:33+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://egyeom.github.io/study/2021/05/28/C01.html</loc>
-<lastmod>2021-10-27T05:44:33+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://egyeom.github.io/study/2021/05/28/Cpp01.html</loc>
-<lastmod>2021-10-27T05:44:33+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://egyeom.github.io/test/2021/06/13/test.html</loc>
-<lastmod>2021-10-27T05:44:33+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://egyeom.github.io/workout/2021/06/15/workout.html</loc>
-<lastmod>2021-10-27T05:44:33+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://egyeom.github.io/workout/2021/06/14/workout.html</loc>
-<lastmod>2021-10-27T05:44:33+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://egyeom.github.io/tag/study/</loc>
-<lastmod>2021-10-27T05:44:33+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-</urlset>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      {% if post.lastmod == null %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+      {% endif %}
+
+      {% if post.sitemap.changefreq == null %}
+        <changefreq>weekly</changefreq>
+      {% else %}
+        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+      {% endif %}
+
+      {% if post.sitemap.priority == null %}
+          <priority>0.5</priority>
+      {% else %}
+        <priority>{{ post.sitemap.priority }}</priority>
+      {% endif %}
+
+    </url>
+  {% endfor %}
+</urlset> 
