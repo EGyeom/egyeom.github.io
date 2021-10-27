@@ -16,13 +16,14 @@ main_nav: true
   <ul class="posts-list">
   {% for post in site.categories[cat] %}
     <li>
-    {% for tag in post.tags %} 
-      <span class="pre-tag" style=" color:green; font-weitght:bold; background:white; font-style:italic">[{{tag}}]</span>
-    {% endfor %}
       <strong>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </strong>
       <span class="post-date">- {{ post.date | date_to_long_string }}</span>
+      {% for tag in post.tags %} 
+      <!-- <span class="pre-tag" style=" color:green; font-weitght:bold; background:white; font-style:italic">[{{tag}}]</span> -->
+      <button type="button" onclick="location.href='{{ site.baseurl }}/tag/{{ tag }}'" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="font-size: 0.9em">{{ tag }}</button>
+      {% endfor %}
     </li>
   {% endfor %}
   </ul>
