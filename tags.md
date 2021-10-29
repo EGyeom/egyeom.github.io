@@ -46,12 +46,14 @@ main_nav: true
 				{% for tag in site.tags %}
 				<button type="button" onclick="location.href='#{{ tag[0] }}'" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</button>
 				{% endfor %}
+				<hr>
 			</div>
             <!-- 标签列表 -->
 			{% for tag in site.tags %}
 			<div class="one-tag-list">
 			  	<span class="fa fa-tag listing-separator" id="{{ tag[0] }}">
-                    <span class="tag-text" style="font-size:32px">{{ tag[0]}}</span>
+                    <span class="tag-text" style="font-size:32px; color: #7f8c8d">{{ tag[0]}}</span>
+					<hr style="border: 1px solid #2980b9">
                 </span>
 				{% for post in tag[1] %}
 				  <!-- <li class="listing-item">
@@ -79,4 +81,3 @@ main_nav: true
 		</div>
 	</div>
 </div>
-<input type="submit" value="hello"/>

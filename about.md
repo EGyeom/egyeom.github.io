@@ -5,14 +5,52 @@ permalink: /about/
 main_nav: true
 ---
 
-![alt text]({{ site.baseurl }}/assets/profile-placeholder.gif "Profile Picture"){:.profile}
+![alt text]({{ site.baseurl }}/assets/mocha_picture.jpg "Profile Picture"){:.profile}
 
-Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
+<div style="text-align: center"><h2>This is my dog, called mocha !</h2></div>  
+{% include page_divider.html %}
 
-This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
+  
+<p style="font-size:24px">Hi, this is <b><em>egyeom</em></b>'s blog !</p>
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+This site is a blog to review and not forget what I have learned.
 
-[centrarium]: https://github.com/bencentra/centrarium
-[bencentra]: http://bencentra.com
-[jekyll]: https://github.com/jekyll/jekyll
+I'm interested in below
+---
+---
+<ul style="font-size:20px">
+    <li>C++/Python</li>
+    <li>Embedded System</li>
+    <li>Game Programming</li>
+    <li>Windows App</li>
+</ul>
+---
+
+So I want to know and talk with who is interested in the above things in list like me!
+
+Please Contact me below ! 
+
+<ul class="social-media-list">
+        <li>
+          <a href="mailto:{{ site.email }}">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">{{ site.email }}</span>
+          </a>
+        </li>
+
+        {% for social in site.social %}
+          {% if social.url != "" %}
+          <li>
+            <a href="{{ social.url }}" title="{{ social.desc }}">
+              <i class="fa fa-{{ social.icon }}"></i>
+              <span class="username">{% if social.username %}{{ social.username }}{% else %}{{ social.name }}{% endif %}</span>
+            </a>
+          </li>
+          {% endif %}
+        {% endfor %}
+</ul>
+------
+
+
+This Blog theme is Centrarium. Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
+

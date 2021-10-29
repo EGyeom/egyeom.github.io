@@ -75,11 +75,11 @@ descriptions:
 #     desc: Follow me on Twitter            # Description to display as link title, etc
 #     share: true                           # Include in the "Share" section of posts
 social:
-  - name: Twitter
-    icon: twitter
-    username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
-    desc: Follow me on Twitter
+  - name: Tumblr
+    icon: tumblr
+    username: mocha-bro
+    url: https://mocha-bro.tistory.com
+    desc: Follow me on Tistory
     share: true
 
   - name: Facebook
@@ -91,15 +91,15 @@ social:
 
   - name: GitHub
     icon: github
-    username: bencentra
-    url: https://github.com/bencentra
+    username: egyeom
+    url: https://github.com/egyeom
     desc: Fork me on GitHub
     share: false
 
   - name: LinkedIn
     icon: linkedin
     username: Ben Centra
-    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    url: ""
     desc: Connect with me on LinkedIn
     share: true
 
