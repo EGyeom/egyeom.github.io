@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 Oct 2021 14:08:00 +0900</pubDate>
-    <lastBuildDate>Fri, 29 Oct 2021 14:08:00 +0900</lastBuildDate>
+    <pubDate>Fri, 29 Oct 2021 17:09:22 +0900</pubDate>
+    <lastBuildDate>Fri, 29 Oct 2021 17:09:22 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -42,7 +42,7 @@
     
       <item>
         <title>로컬 사이트에 포스트 적용 안될때</title>
-        <description>&lt;h1&gt; Github.io 블로그 너무 어렵다.... &lt;/h1&gt; &lt;p&gt; 블로그 첫글을 쓰고 로컬 사이트에서 확인하려고 아래의 명령을 사용했다. &lt;/p&gt; &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle exec jekyll serve &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt; &lt;p&gt;이 명령을 사용해서 빌드를 아무리...</description>
+        <description>&lt;h1&gt; Github.io 블로그 너무 어렵다.... &lt;/h1&gt; &lt;p&gt; 블로그 첫글을 쓰고 로컬 사이트에서 확인하려고 아래의 명령을 사용했다. &lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-command&quot;&gt;bundle exec jekyll serve &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;이 명령을 사용해서 빌드를 아무리 해도 로컬...</description>
         <pubDate>Tue, 15 Jun 2021 08:04:59 +0900</pubDate>
         <link>http://localhost:4000/jekyll/2021/06/15/study.html</link>
         <guid isPermaLink="true">http://localhost:4000/jekyll/2021/06/15/study.html</guid>
@@ -55,12 +55,16 @@
       </item>
     
       <item>
-        <title>Workout</title>
-        <description>&lt;hr /&gt; &lt;p&gt;layout: post title: 나의 첫 운동 일지 ! date : 2021-06-14 22:44:00 author: Gyeom categories: Workout tag: [workout] cover: “/assets/work_out_image.jpg” —1&lt;/p&gt; &lt;h1&gt; 내 첫 운동 일지 &lt;/h1&gt; &lt;p&gt;&lt;br...</description>
-        <pubDate>Mon, 14 Jun 2021 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/2021/06/14/workout.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/06/14/workout.html</guid>
+        <title>나의 첫 운동 일지 !</title>
+        <description>&lt;h1&gt; 내 첫 운동 일지 &lt;/h1&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;blockquote&gt; &lt;h2 id=&quot;내-블로그의-첫-글&quot;&gt;내 블로그의 첫 글..&lt;/h2&gt; &lt;/blockquote&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h2&gt; 공부한 내용을 정리하기 위한 개발 블로그의 첫 글이 &lt;strong&gt;운동 일지라니..&lt;/strong&gt; &lt;/h2&gt; &lt;hr...</description>
+        <pubDate>Tue, 15 Jun 2021 07:44:00 +0900</pubDate>
+        <link>http://localhost:4000/workout/2021/06/15/workout.html</link>
+        <guid isPermaLink="true">http://localhost:4000/workout/2021/06/15/workout.html</guid>
         
+        <category>workout</category>
+        
+        
+        <category>Workout</category>
         
       </item>
     
