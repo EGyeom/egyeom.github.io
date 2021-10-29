@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My cheat note for studying</title>
+    <description>&quot;파이팅&quot;
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 29 Oct 2021 14:08:00 +0900</pubDate>
+    <lastBuildDate>Fri, 29 Oct 2021 14:08:00 +0900</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>python 자료형 (Data Type) 알아보기 01 - 숫자 자료형</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#python-data-type-첫번째---숫자-자료형&quot; id=&quot;markdown-toc-python-data-type-첫번째---숫자-자료형&quot;&gt;python Data type, 첫번째 - 숫자 자료형&lt;/a&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;#숫자-자료형&quot; id=&quot;markdown-toc-숫자-자료형&quot;&gt;숫자 자료형&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr /&gt; &lt;h1 id=&quot;python-data-type-첫번째---숫자-자료형&quot;&gt;python Data type, 첫번째 - 숫자 자료형&lt;/h1&gt; &lt;hr...</description>
+        <pubDate>Fri, 22 Oct 2021 19:43:59 +0900</pubDate>
+        <link>http://localhost:4000/study/2021/10/22/DataType.html</link>
+        <guid isPermaLink="true">http://localhost:4000/study/2021/10/22/DataType.html</guid>
+        
+        <category>study</category>
+        
+        <category>python</category>
+        
+        
+        <category>Study</category>
+        
+      </item>
+    
+      <item>
+        <title>Workout day 2 with Happy girl~</title>
+        <description>&lt;h1&gt;&lt;b&gt;운동 일지 2일차&lt;/b&gt;&lt;/h1&gt; &lt;hr /&gt; &lt;h2&gt;아침 운동 리스트&lt;/h2&gt; &lt;hr /&gt; &lt;ol&gt; &lt;li&gt;&lt;a href=&quot;&quot; title=&quot;터키쉬 겟업 설명 링크&quot;&gt; Turkish Get-up&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;&quot; title=&quot;파워 클린&quot;&gt;Power Clean&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;&quot; title=&quot;손목 밀기 설명 링크&quot;&gt;Wrist...</description>
+        <pubDate>Wed, 16 Jun 2021 07:44:00 +0900</pubDate>
+        <link>http://localhost:4000/workout/2021/06/16/workout.html</link>
+        <guid isPermaLink="true">http://localhost:4000/workout/2021/06/16/workout.html</guid>
+        
+        <category>workout</category>
+        
+        
+        <category>Workout</category>
+        
+      </item>
+    
+      <item>
+        <title>로컬 사이트에 포스트 적용 안될때</title>
+        <description>&lt;h1&gt; Github.io 블로그 너무 어렵다.... &lt;/h1&gt; &lt;p&gt; 블로그 첫글을 쓰고 로컬 사이트에서 확인하려고 아래의 명령을 사용했다. &lt;/p&gt; &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle exec jekyll serve &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt; &lt;p&gt;이 명령을 사용해서 빌드를 아무리...</description>
+        <pubDate>Tue, 15 Jun 2021 08:04:59 +0900</pubDate>
+        <link>http://localhost:4000/jekyll/2021/06/15/study.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2021/06/15/study.html</guid>
+        
+        <category>jekyll</category>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Workout</title>
+        <description>&lt;hr /&gt; &lt;p&gt;layout: post title: 나의 첫 운동 일지 ! date : 2021-06-14 22:44:00 author: Gyeom categories: Workout tag: [workout] cover: “/assets/work_out_image.jpg” —1&lt;/p&gt; &lt;h1&gt; 내 첫 운동 일지 &lt;/h1&gt; &lt;p&gt;&lt;br...</description>
+        <pubDate>Mon, 14 Jun 2021 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2021/06/14/workout.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/06/14/workout.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Cpp 공부하기 01</title>
+        <description>&lt;h1 id=&quot;contents-header&quot;&gt;Contents header&lt;/h1&gt; &lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#contents-header&quot; id=&quot;markdown-toc-contents-header&quot;&gt;Contents header&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#compiler-컴파일러&quot; id=&quot;markdown-toc-compiler-컴파일러&quot;&gt;Compiler, 컴파일러&lt;/a&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;#컴파일러는-컴파일을-해주는-도구&quot; id=&quot;markdown-toc-컴파일러는-컴파일을-해주는-도구&quot;&gt;컴파일러는 컴파일을 해주는 도구.&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#c언어-입출력&quot; id=&quot;markdown-toc-c언어-입출력&quot;&gt;C++언어 입출력&lt;/a&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;#c언어의-입력과-출력에-대한-문법&quot; id=&quot;markdown-toc-c언어의-입력과-출력에-대한-문법&quot;&gt;C++언어의...</description>
+        <pubDate>Fri, 28 May 2021 17:43:59 +0900</pubDate>
+        <link>http://localhost:4000/study/2021/05/28/Cpp01.html</link>
+        <guid isPermaLink="true">http://localhost:4000/study/2021/05/28/Cpp01.html</guid>
+        
+        <category>study</category>
+        
+        <category>Cpp</category>
+        
+        
+        <category>Study</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#adding-new-posts&quot; id=&quot;markdown-toc-adding-new-posts&quot;&gt;Adding New Posts&lt;/a&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;#tags-and-categories&quot; id=&quot;markdown-toc-tags-and-categories&quot;&gt;Tags and Categories&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#cover-images&quot; id=&quot;markdown-toc-cover-images&quot;&gt;Cover Images&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#code-snippets&quot; id=&quot;markdown-toc-code-snippets&quot;&gt;Code Snippets&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#blockquotes&quot; id=&quot;markdown-toc-blockquotes&quot;&gt;Blockquotes&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#images&quot; id=&quot;markdown-toc-images&quot;&gt;Images&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#tooltips&quot; id=&quot;markdown-toc-tooltips&quot;&gt;Tooltips&lt;/a&gt;&lt;/li&gt;...</description>
+        <pubDate>Mon, 20 Apr 2015 17:43:59 +0900</pubDate>
+        <link>http://localhost:4000/jekyll/2015/04/20/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2015/04/20/welcome-to-jekyll.html</guid>
+        
+        <category>jekyll</category>
+        
+        <category>welcome</category>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
+    
+  </channel>
+</rss>

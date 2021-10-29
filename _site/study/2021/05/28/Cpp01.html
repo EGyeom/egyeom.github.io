@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Cpp 공부하기 01</title>
+  <meta name="description" content="Contents header  Contents header">
+  
+  <meta name="author" content="Gyeom">
+  <meta name="copyright" content="&copy; Gyeom 2021">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="Contents header  Contents header" />
+  <meta property="og:url" content="http://localhost:4000/study/2021/05/28/Cpp01.html">
+  <meta property="og:site_name" content="My cheat note for studying" />
+  <meta property="og:title" content="Cpp 공부하기 01" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://localhost:4000/assets/instacode.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Cpp 공부하기 01">
+  <meta name="twitter:description" content="Contents header  Contents header">
+  <meta name="twitter:image" content="http://localhost:4000/assets/instacode.png">
+  <meta name="twitter:url" content="http://localhost:4000/study/2021/05/28/Cpp01.html">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/study/2021/05/28/Cpp01.html">
+	<link rel="alternate" type="application/rss+xml" title="My cheat note for studying" href="http://localhost:4000/feed.xml" />
+	
+	<!-- Tooltips -->
+	<script type="text/javascript">
+		window.tooltips = []
+	</script>
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="My cheat note for studying">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+				
+	
+	<li class="nav-link"><a href="/about/">About</a>
+	
+
+	
+
+	
+
+	
+	<li class="nav-link"><a href="/posts/">Posts</a>
+	
+
+	
+
+	
+
+	
+	<li class="nav-link"><a href="/tag/">tags</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container has-cover" style="background-image: url(/assets/instacode.png);">
+  <div class="scrim has-cover">
+    <header class="post-header">
+      <h1 class="title">Cpp 공부하기 01</h1>
+      <p class="info">by <strong>Gyeom</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+
+
+<section class="post-meta">
+  <div class="post-date">May 28, 2021</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/Study">Study</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <h1 id="contents-header">Contents header</h1>
+<ul id="markdown-toc">
+  <li><a href="#contents-header" id="markdown-toc-contents-header">Contents header</a></li>
+  <li><a href="#compiler-컴파일러" id="markdown-toc-compiler-컴파일러">Compiler, 컴파일러</a>    <ul>
+      <li><a href="#컴파일러는-컴파일을-해주는-도구" id="markdown-toc-컴파일러는-컴파일을-해주는-도구">컴파일러는 컴파일을 해주는 도구.</a></li>
+    </ul>
+  </li>
+  <li><a href="#c언어-입출력" id="markdown-toc-c언어-입출력">C++언어 입출력</a>    <ul>
+      <li><a href="#c언어의-입력과-출력에-대한-문법" id="markdown-toc-c언어의-입력과-출력에-대한-문법">C++언어의 입력과 출력에 대한 문법</a></li>
+    </ul>
+  </li>
+</ul>
+
+<!-- <h1>
+C Study 첫날
+<h2> -->
+<hr />
+
+<h1 id="compiler-컴파일러">Compiler, 컴파일러</h1>
+<h2 id="컴파일러는-컴파일을-해주는-도구">컴파일러는 컴파일을 해주는 도구.</h2>
+
+<p>컴퓨터는 0,1로만 이루어져있는 기계다.</p>
+
+<p>우리가 사용하는 컴퓨터의 모든것들은 0,1로 이루어져있다.</p>
+
+<p>컴퓨터가 인간이 만든 프로그래밍 언어를 이해할수 없으므로 컴퓨터의 언어인 기계어로 통역해주는 역할이 컴파일러다.</p>
+
+<p>나는 현재 gcc/g++ 컴파일러를 사용하고 있다.</p>
+
+<h1 id="c언어-입출력">C++언어 입출력</h1>
+
+<h2 id="c언어의-입력과-출력에-대한-문법">C++언어의 입력과 출력에 대한 문법</h2>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="cp">#include &lt;iostream.h&gt; //input,output stream 줄임말로, 표준 입출력 함수를 가지고있는 헤더파일
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="c1">//모든 Cpp 프로그램이 처음으로 시작하는 부분 = main 함수</span>
+<span class="p">{</span> 
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Hello world"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span> <span class="c1">// c언어에서 printf("Hello World\n"); 와 같은 문장</span>
+
+    <span class="kt">int</span> <span class="n">input</span> <span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">input</span><span class="p">;</span> <span class="c1">// c언어에서 scanf("%d", &amp;input); 와 같은 문장. </span>
+
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input : "</span> <span class="o">&lt;&lt;</span> <span class="n">input</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span> <span class="c1">//printf("input : %d\n", input);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span> 
+
+</code></pre></div></div>
+
+<p>위의 코드는 c++로 작성되었다.</p>
+
+<p>옆에 주석으로 C언어 문법으로 적어놓았는데, C언어와 조금 달라졌다.</p>
+
+<p>C++ 입출력에서 아주 편해진 부분이 있다.</p>
+
+<p>기존 C언어에서는 서식 문자열을 넣어주었어야 했는데, 그부분이 C++로 넘어가면서 사라졌다.</p>
+
+<p>자세히 말하자면 길어지지만,</p>
+
+<p>간단하게 말하면 C++에서 지원하는 함수 오버로딩 덕분에 가능하다.<br />
+<strong><em>(오버라이딩 아니다. 오버라이딩은 뒤에 상속에 관련해서 나오게 된다.)</em></strong></p>
+
+<ul>
+  <li>
+    <dl>
+      <dt>함수오버로딩</dt>
+      <dd>c++에서는 컴파일러가 함수 호출에 사용된 인수를 기반으로 호출할 함수를 결정하게 된다.<br />
+ 그 말은 즉, 같은 함수이름을 가지지만 <strong><em>매개변수를 다르게</em></strong>하면 다른 함수처럼 사용할 수 있다는것이다..</dd>
+    </dl>
+  </li>
+</ul>
+
+<p>따라서 모든 자료형에 대해 cout, cin 함수가 오버로딩 되어있어서</p>
+
+<p>사용하는 입장에서 편하게 사용할 수가 있는것이다..</p>
+
+</article>
+
+
+
+<section class="tags">
+  <strong>Tags:</strong> <a href="/tag/study">study</a>,&nbsp;<a href="/tag/Cpp">Cpp</a>
+</section>
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<!-- <section class="share">
+  <span>Share: </span>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+      <a href="//www.facebook.com/sharer.php?t=Cpp+%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0+01&u=http%3A%2F%2Flocalhost%3A4000%2Fstudy%2F2021%2F05%2F28%2FCpp01.html"
+        onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+        <i class="fa fa-facebook-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+      <a href="//www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fstudy%2F2021%2F05%2F28%2FCpp01.html"
+        onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+        <i class="fa fa-linkedin-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      <a href="//plus.google.com/share?title=Cpp+%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0+01&url=http%3A%2F%2Flocalhost%3A4000%2Fstudy%2F2021%2F05%2F28%2FCpp01.html"
+        onclick="window.open(this.href, 'google-plus-share', 'width=550,height=255');return false;">
+        <i class="fa fa-google-plus-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+      <a href="//www.pinterest.com/pin/create/button/?description=Cpp+%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0+01&url=http%3A%2F%2Flocalhost%3A4000%2Fstudy%2F2021%2F05%2F28%2FCpp01.html&media=http://localhost:4000/assets/instacode.png"
+        onclick="window.open(this.href, 'pinterest-share', 'width=550,height=255');return false;">
+        <i class="fa fa-pinterest-square fa-lg"></i>
+      </a>
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+      <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent('http://localhost:4000/study/2021/05/28/Cpp01.html') + '&title=Cpp 공부하기 01'; return false">
+        <i class="fa fa-reddit-square fa-lg"></i>
+      </a>
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section> -->
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">My cheat note for studying</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+				
+	
+	<li class="nav-link"><a href="/about/">About</a>
+	
+
+	
+
+	
+
+	
+	<li class="nav-link"><a href="/posts/">Posts</a>
+	
+
+	
+
+	
+
+	
+	<li class="nav-link"><a href="/tag/">tags</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:ug4306@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">ug4306@gmail.com</span>
+          </a>
+        </li>
+
+        
+          
+          <li>
+            <a href="https://mocha-bro.tistory.com" title="Follow me on Tistory">
+              <i class="fa fa-tumblr"></i>
+              <span class="username">mocha-bro</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+          <li>
+            <a href="https://github.com/egyeom" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">egyeom</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">"파이팅"
+</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+<script src="//unpkg.com/popper.js@1"></script>
+<script src="//unpkg.com/tippy.js@5"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+	// Enable tooltips via Tippy.js
+	if (Array.isArray(window.tooltips)) {
+		window.tooltips.forEach(function(tooltip) {
+			var selector = tooltip[0];
+			var config = tooltip[1];
+			tippy(selector, config);
+		})
+	}
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>
