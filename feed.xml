@@ -6,23 +6,23 @@
 </description>
     <link>http://egyeom.github.io/</link>
     <atom:link href="http://egyeom.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Nov 2021 11:44:17 +0900</pubDate>
-    <lastBuildDate>Wed, 03 Nov 2021 11:44:17 +0900</lastBuildDate>
+    <pubDate>Wed, 03 Nov 2021 18:55:03 +0900</pubDate>
+    <lastBuildDate>Wed, 03 Nov 2021 18:55:03 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>python 자료형 (Data Type) 알아보기 01 - 숫자 자료형</title>
         <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#python-data-type-첫번째---숫자-자료형&quot; id=&quot;markdown-toc-python-data-type-첫번째---숫자-자료형&quot;&gt;python Data type, 첫번째 - 숫자 자료형&lt;/a&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;#숫자-자료형&quot; id=&quot;markdown-toc-숫자-자료형&quot;&gt;숫자 자료형&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr /&gt; &lt;h1 id=&quot;python-data-type-첫번째---숫자-자료형&quot;&gt;python Data type, 첫번째 - 숫자 자료형&lt;/h1&gt; &lt;hr...</description>
         <pubDate>Fri, 22 Oct 2021 19:43:59 +0900</pubDate>
-        <link>http://egyeom.github.io/study/2021/10/22/DataType.html</link>
-        <guid isPermaLink="true">http://egyeom.github.io/study/2021/10/22/DataType.html</guid>
+        <link>http://egyeom.github.io/development/2021/10/22/DataType.html</link>
+        <guid isPermaLink="true">http://egyeom.github.io/development/2021/10/22/DataType.html</guid>
         
         <category>study</category>
         
         <category>python</category>
         
         
-        <category>Study</category>
+        <category>Development</category>
         
       </item>
     
@@ -44,13 +44,15 @@
         <title>로컬 사이트에 포스트 적용 안될때</title>
         <description>&lt;h1&gt; Github.io 블로그 너무 어렵다.... &lt;/h1&gt; &lt;p&gt; 블로그 첫글을 쓰고 로컬 사이트에서 확인하려고 아래의 명령을 사용했다. &lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-command&quot;&gt;bundle exec jekyll serve &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;이 명령을 사용해서 빌드를 아무리 해도 로컬...</description>
         <pubDate>Tue, 15 Jun 2021 08:04:59 +0900</pubDate>
-        <link>http://egyeom.github.io/jekyll/2021/06/15/study.html</link>
-        <guid isPermaLink="true">http://egyeom.github.io/jekyll/2021/06/15/study.html</guid>
+        <link>http://egyeom.github.io/blog/2021/06/15/study.html</link>
+        <guid isPermaLink="true">http://egyeom.github.io/blog/2021/06/15/study.html</guid>
+        
+        <category>Blog</category>
         
         <category>jekyll</category>
         
         
-        <category>Jekyll</category>
+        <category>Blog</category>
         
       </item>
     
@@ -72,31 +74,25 @@
         <title>Cpp 공부하기 01</title>
         <description>&lt;h1 id=&quot;contents-header&quot;&gt;Contents header&lt;/h1&gt; &lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#contents-header&quot; id=&quot;markdown-toc-contents-header&quot;&gt;Contents header&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#compiler-컴파일러&quot; id=&quot;markdown-toc-compiler-컴파일러&quot;&gt;Compiler, 컴파일러&lt;/a&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;#컴파일러는-컴파일을-해주는-도구&quot; id=&quot;markdown-toc-컴파일러는-컴파일을-해주는-도구&quot;&gt;컴파일러는 컴파일을 해주는 도구.&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#c언어-입출력&quot; id=&quot;markdown-toc-c언어-입출력&quot;&gt;C++언어 입출력&lt;/a&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;#c언어의-입력과-출력에-대한-문법&quot; id=&quot;markdown-toc-c언어의-입력과-출력에-대한-문법&quot;&gt;C++언어의...</description>
         <pubDate>Fri, 28 May 2021 17:43:59 +0900</pubDate>
-        <link>http://egyeom.github.io/study/2021/05/28/Cpp01.html</link>
-        <guid isPermaLink="true">http://egyeom.github.io/study/2021/05/28/Cpp01.html</guid>
+        <link>http://egyeom.github.io/development/2021/05/28/Cpp01.html</link>
+        <guid isPermaLink="true">http://egyeom.github.io/development/2021/05/28/Cpp01.html</guid>
         
         <category>study</category>
         
         <category>Cpp</category>
         
         
-        <category>Study</category>
+        <category>Development</category>
         
       </item>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#adding-new-posts&quot; id=&quot;markdown-toc-adding-new-posts&quot;&gt;Adding New Posts&lt;/a&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;#tags-and-categories&quot; id=&quot;markdown-toc-tags-and-categories&quot;&gt;Tags and Categories&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#cover-images&quot; id=&quot;markdown-toc-cover-images&quot;&gt;Cover Images&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#code-snippets&quot; id=&quot;markdown-toc-code-snippets&quot;&gt;Code Snippets&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#blockquotes&quot; id=&quot;markdown-toc-blockquotes&quot;&gt;Blockquotes&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#images&quot; id=&quot;markdown-toc-images&quot;&gt;Images&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#tooltips&quot; id=&quot;markdown-toc-tooltips&quot;&gt;Tooltips&lt;/a&gt;&lt;/li&gt;...</description>
-        <pubDate>Mon, 20 Apr 2015 17:43:59 +0900</pubDate>
-        <link>http://egyeom.github.io/jekyll/2015/04/20/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://egyeom.github.io/jekyll/2015/04/20/welcome-to-jekyll.html</guid>
+        <title>Welcome To Jekyll</title>
+        <description>&lt;!-- --- layout: post title: &quot;Welcome to Jekyll!&quot; date: 2015-04-20 08:43:59 author: Ben Centra categories: Jekyll tags: jekyll welcome cover: &quot;/assets/instacode.png&quot; --- - {:toc} You’ll find this post in your...</description>
+        <pubDate>Mon, 20 Apr 2015 00:00:00 +0900</pubDate>
+        <link>http://egyeom.github.io/2015/04/20/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://egyeom.github.io/2015/04/20/welcome-to-jekyll.html</guid>
         
-        <category>jekyll</category>
-        
-        <category>welcome</category>
-        
-        
-        <category>Jekyll</category>
         
       </item>
     
