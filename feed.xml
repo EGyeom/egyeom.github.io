@@ -6,16 +6,16 @@
 </description>
     <link>http://egyeom.github.io/</link>
     <atom:link href="http://egyeom.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Nov 2021 18:55:03 +0900</pubDate>
-    <lastBuildDate>Wed, 03 Nov 2021 18:55:03 +0900</lastBuildDate>
+    <pubDate>Fri, 05 Nov 2021 15:43:33 +0900</pubDate>
+    <lastBuildDate>Fri, 05 Nov 2021 15:43:33 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
-        <title>python 자료형 (Data Type) 알아보기 01 - 숫자 자료형</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#python-data-type-첫번째---숫자-자료형&quot; id=&quot;markdown-toc-python-data-type-첫번째---숫자-자료형&quot;&gt;python Data type, 첫번째 - 숫자 자료형&lt;/a&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;#숫자-자료형&quot; id=&quot;markdown-toc-숫자-자료형&quot;&gt;숫자 자료형&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr /&gt; &lt;h1 id=&quot;python-data-type-첫번째---숫자-자료형&quot;&gt;python Data type, 첫번째 - 숫자 자료형&lt;/h1&gt; &lt;hr...</description>
-        <pubDate>Fri, 22 Oct 2021 19:43:59 +0900</pubDate>
-        <link>http://egyeom.github.io/development/2021/10/22/DataType.html</link>
-        <guid isPermaLink="true">http://egyeom.github.io/development/2021/10/22/DataType.html</guid>
+        <title>Python Coding Style을 정하자 chapter 1 !</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#python-coding-style을-정하자&quot; id=&quot;markdown-toc-python-coding-style을-정하자&quot;&gt;Python Coding Style을 정하자!&lt;/a&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;#인덴트들여쓰기&quot; id=&quot;markdown-toc-인덴트들여쓰기&quot;&gt;인덴트(들여쓰기)&lt;/a&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;#인덴트-예&quot; id=&quot;markdown-toc-인덴트-예&quot;&gt;인덴트 예)&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#네이밍-컨벤션-이름-정하기-규칙&quot; id=&quot;markdown-toc-네이밍-컨벤션-이름-정하기-규칙&quot;&gt;네이밍 컨벤션 (이름 정하기 규칙)&lt;/a&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;#1-카멜-케이스-camel-case&quot; id=&quot;markdown-toc-1-카멜-케이스-camel-case&quot;&gt;1....</description>
+        <pubDate>Sat, 06 Nov 2021 04:43:59 +0900</pubDate>
+        <link>http://egyeom.github.io/development/2021/11/06/CodingStyle01.html</link>
+        <guid isPermaLink="true">http://egyeom.github.io/development/2021/11/06/CodingStyle01.html</guid>
         
         <category>study</category>
         
@@ -83,16 +83,6 @@
         
         
         <category>Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome To Jekyll</title>
-        <description>&lt;!-- --- layout: post title: &quot;Welcome to Jekyll!&quot; date: 2015-04-20 08:43:59 author: Ben Centra categories: Jekyll tags: jekyll welcome cover: &quot;/assets/instacode.png&quot; --- - {:toc} You’ll find this post in your...</description>
-        <pubDate>Mon, 20 Apr 2015 00:00:00 +0900</pubDate>
-        <link>http://egyeom.github.io/2015/04/20/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://egyeom.github.io/2015/04/20/welcome-to-jekyll.html</guid>
-        
         
       </item>
     

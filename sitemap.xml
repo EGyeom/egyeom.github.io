@@ -2,9 +2,9 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>http://egyeom.github.io/development/2021/10/22/DataType.html</loc>
+      <loc>http://egyeom.github.io/development/2021/11/06/CodingStyle01.html</loc>
       
-        <lastmod>2021-10-22T19:43:59+09:00</lastmod>
+        <lastmod>2021-11-06T04:43:59+09:00</lastmod>
       
 
       
@@ -73,22 +73,6 @@
 
       
         <changefreq>daily</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://egyeom.github.io/2015/04/20/welcome-to-jekyll.html</loc>
-      
-        <lastmod>2015-04-20T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
       
 
       
