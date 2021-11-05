@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Python Coding Style을 정하자 chapter 2 !</title>
+  <meta name="description" content="">
+  
+  <meta name="author" content="Gyeom">
+  <meta name="copyright" content="&copy; Gyeom 2021">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="http://egyeom.github.io/development/2021/11/06/CodingStyle02.html">
+  <meta property="og:site_name" content="My cheat note for studying" />
+  <meta property="og:title" content="Python Coding Style을 정하자 chapter 2 !" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://egyeom.github.io/assets/python_cover.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Python Coding Style을 정하자 chapter 2 !">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="http://egyeom.github.io/assets/python_cover.png">
+  <meta name="twitter:url" content="http://egyeom.github.io/development/2021/11/06/CodingStyle02.html">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://egyeom.github.io/development/2021/11/06/CodingStyle02.html">
+	<link rel="alternate" type="application/rss+xml" title="My cheat note for studying" href="http://egyeom.github.io/feed.xml" />
+	
+	<!-- Tooltips -->
+	<script type="text/javascript">
+		window.tooltips = []
+	</script>
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="My cheat note for studying">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+				
+	
+	<li class="nav-link"><a href="/about/">About</a>
+	
+
+	
+
+	
+
+	
+	<li class="nav-link"><a href="/posts/">Posts</a>
+	
+
+	
+
+	
+
+	
+	<li class="nav-link"><a href="/tag/">tags</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container has-cover" style="background-image: url(/assets/python_cover.png);">
+  <div class="scrim has-cover">
+    <header class="post-header">
+      <h1 class="title">Python Coding Style을 정하자 chapter 2 !</h1>
+      <p class="info">by <strong>Gyeom</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+
+
+<section class="post-meta">
+  <div class="post-date">November 6, 2021</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/Development">Development</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <ul id="markdown-toc">
+  <li><a href="#python-coding-style을-정하자-두번째" id="markdown-toc-python-coding-style을-정하자-두번째">Python Coding Style을 정하자, 두번째!</a>    <ul>
+      <li><a href="#타입힌트" id="markdown-toc-타입힌트">타입힌트</a>        <ul>
+          <li><a href="#타입힌트-예" id="markdown-toc-타입힌트-예">타입힌트 예)</a></li>
+        </ul>
+      </li>
+      <li><a href="#리스트-컴프리핸션list-comprehension" id="markdown-toc-리스트-컴프리핸션list-comprehension">리스트 컴프리핸션(List Comprehension)</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="python-coding-style을-정하자-두번째">Python Coding Style을 정하자, 두번째!</h1>
+
+<p>코딩 스타일을 정하고 있는 중이다.</p>
+
+<p>지난 번에는 인덴트와 네이밍 컨벤션 종류에 대해 알아보고 어떤것을 사용할지 결정했었다.</p>
+
+<p>이번에 알아 보고 사용할 것은 <strong><em>타입힌트</em></strong>, <strong><em>리스트 컴프리헨션</em></strong> 이다.</p>
+
+<hr />
+
+<h2 id="타입힌트">타입힌트</h2>
+
+<dl>
+  <dt>타입힌트</dt>
+  <dd>파이썬은 동적 타이핑 언어이고, 빠르게 정의하여 사용할수 있다는 장점이 있지만,<br />
+규모가 커지면 가독성이 떨어지며, 인자로 무엇을 넘겨야 할지 알수 없는 상황이 생겨난다.<br />
+이러한 상황에서 가독성을 높여주기 위해 사용 되는 것이 타입 힌트다.</dd>
+</dl>
+
+<p>더 설명하기 보다, 예제를 보여주는것이 이해하기 빠를것 같다.</p>
+<hr />
+
+<h3 id="타입힌트-예">타입힌트 예)</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">fn</span><span class="p">(</span><span class="n">a</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span> <span class="c1"># a라는 input은 int이고, 반환되는 값은 bool 자료형이라는것을 명시
+</span>  <span class="k">if</span> <span class="n">a</span> <span class="o">==</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="k">return</span> <span class="bp">True</span>
+  <span class="k">else</span><span class="p">:</span>
+    <span class="k">return</span> <span class="bp">False</span>
+</code></pre></div></div>
+
+<p>위의 코드와 같이 fn이라는 함수에 a가 int형이라는것, 리턴 값이 bool 자료형이라는 것을 함수만 보고 알수있다.</p>
+
+<p><strong><em>하지만</em></strong>, 이것은 그저 명시만 해주는 용도일뿐이라, 여전히 동적으로 다른 자료형을 할당 할 수 있다. <br />
+<strong><em>mypy</em></strong> 라는 것을 사용하면 타입힌트 오류를 확인 가능하고, 잘못된 자료형을 전달하거나 했을때
+<code>Incompatiable return value</code>라는 에러 메시지가 발생하게 된다.</p>
+
+<ul>
+  <li>설치는 아래와 같이 할수 있다.</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install mypy
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="리스트-컴프리핸션list-comprehension">리스트 컴프리핸션(List Comprehension)</h2>
+
+<dl>
+  <dt>리스트 컴프리핸션</dt>
+  <dd>리스트 컴프리핸션은 기존 리스트를 기반으로 새로운리스트를 만들어내는 기능이고, 파이썬을 사용하여 코딩테스트를 풀게 될때 큰 강점이다.</dd>
+  <dd>파이썬은 map,filter와 같은 함수형 기능뿐만아니라 람다표현식도 지원한다.</dd>
+  <dd>다른 언어로 여러줄로 작성해야 할 부분을 리스트 컴프리핸션을 사용하면 한줄로 표현이 가능하다. <strong><em>하지만</em></strong>, 지나치면 가독성이 너무 떨어지니 조심해야 한다.</dd>
+</dl>
+
+<p>아래의 예제 코드를 보자.</p>
+<hr />
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#[식 for 변수 in 리스트 if 조건]
+#list(식 for 변수 in 리스트 if 조건)
+#list(map(함수, 리스트)) 리스트를 함수에 맞게 변환하겠다.
+</span><span class="n">a</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">+</span><span class="mi">10</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+
+<span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="n">n</span><span class="o">*</span><span class="mi">2</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="k">if</span> <span class="n">n</span><span class="o">%</span><span class="mi">2</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>위 코드의 실행 결과는 아래와 같다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="mi">11</span><span class="p">,</span><span class="mi">12</span><span class="p">,</span><span class="mi">13</span><span class="p">]</span> <span class="c1"># [1,2,3] 리스트 각 원소에 10이 더해진 원소를 가진 리스트가 출력되었다.
+</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">14</span><span class="p">,</span><span class="mi">18</span><span class="p">]</span> <span class="c1"># 1~10까지의 리스트 중 홀수가 2배가 된 원소를 가진 리스트가 출력되었다.
+</span></code></pre></div></div>
+<p>위와 같이 잘만 사용하면 편하고, 간단하게 코드를 작성할수있다.</p>
+
+<p><strong><em>하지만</em></strong>, 한줄로 작성하는것에 꽂혀 다음과 같이 사용하면 가독성이 너무나도 떨어질 수 있으니 조심해야 한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="p">[(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">z</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">!=</span> <span class="n">y</span> <span class="k">for</span> <span class="n">z</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span> <span class="k">if</span> <span class="n">y</span> <span class="o">!=</span> <span class="n">z</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>위와 같은 코드를 작성해야 한다면, 적어도 아래와 같이 줄바꿈을 이용하여 가독성이라도 높여주도록 하자.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="p">[(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">z</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+             <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+             <span class="k">if</span> <span class="n">x</span> <span class="o">!=</span> <span class="n">y</span> 
+             <span class="k">for</span> <span class="n">z</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+             <span class="k">if</span> <span class="n">y</span> <span class="o">!=</span> <span class="n">z</span><span class="p">]</span>
+</code></pre></div></div>
+<hr />
+
+<p>출처: 파이썬 알고리즘 인터뷰 (박상길)</p>
+
+</article>
+
+
+
+<section class="tags">
+  <strong>Tags:</strong> <a href="/tag/study">study</a>,&nbsp;<a href="/tag/python">python</a>
+</section>
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<!-- <section class="share">
+  <span>Share: </span>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+      <a href="//www.facebook.com/sharer.php?t=Python+Coding+Style%EC%9D%84+%EC%A0%95%ED%95%98%EC%9E%90+chapter+2+%21&u=http%3A%2F%2Fegyeom.github.io%2Fdevelopment%2F2021%2F11%2F06%2FCodingStyle02.html"
+        onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+        <i class="fa fa-facebook-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+      <a href="//www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fegyeom.github.io%2Fdevelopment%2F2021%2F11%2F06%2FCodingStyle02.html"
+        onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+        <i class="fa fa-linkedin-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      <a href="//plus.google.com/share?title=Python+Coding+Style%EC%9D%84+%EC%A0%95%ED%95%98%EC%9E%90+chapter+2+%21&url=http%3A%2F%2Fegyeom.github.io%2Fdevelopment%2F2021%2F11%2F06%2FCodingStyle02.html"
+        onclick="window.open(this.href, 'google-plus-share', 'width=550,height=255');return false;">
+        <i class="fa fa-google-plus-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+      <a href="//www.pinterest.com/pin/create/button/?description=Python+Coding+Style%EC%9D%84+%EC%A0%95%ED%95%98%EC%9E%90+chapter+2+%21&url=http%3A%2F%2Fegyeom.github.io%2Fdevelopment%2F2021%2F11%2F06%2FCodingStyle02.html&media=http://egyeom.github.io/assets/python_cover.png"
+        onclick="window.open(this.href, 'pinterest-share', 'width=550,height=255');return false;">
+        <i class="fa fa-pinterest-square fa-lg"></i>
+      </a>
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+      <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent('http://egyeom.github.io/development/2021/11/06/CodingStyle02.html') + '&title=Python Coding Style을 정하자 chapter 2 !'; return false">
+        <i class="fa fa-reddit-square fa-lg"></i>
+      </a>
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section> -->
+
+
+
+
+</div>
+</div>
+
+    </div>
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">My cheat note for studying</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+				
+	
+	<li class="nav-link"><a href="/about/">About</a>
+	
+
+	
+
+	
+
+	
+	<li class="nav-link"><a href="/posts/">Posts</a>
+	
+
+	
+
+	
+
+	
+	<li class="nav-link"><a href="/tag/">tags</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:ug4306@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">ug4306@gmail.com</span>
+          </a>
+        </li>
+
+        
+          
+          <li>
+            <a href="https://mocha-bro.tistory.com" title="Follow me on Tistory">
+              <i class="fa fa-tumblr"></i>
+              <span class="username">mocha-bro</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+          <li>
+            <a href="https://github.com/egyeom" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">egyeom</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">"파이팅"
+</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+<script src="//unpkg.com/popper.js@1"></script>
+<script src="//unpkg.com/tippy.js@5"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+	// Enable tooltips via Tippy.js
+	if (Array.isArray(window.tooltips)) {
+		window.tooltips.forEach(function(tooltip) {
+			var selector = tooltip[0];
+			var config = tooltip[1];
+			tippy(selector, config);
+		})
+	}
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>

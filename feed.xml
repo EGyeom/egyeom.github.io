@@ -6,9 +6,25 @@
 </description>
     <link>http://egyeom.github.io/</link>
     <atom:link href="http://egyeom.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Nov 2021 15:43:33 +0900</pubDate>
-    <lastBuildDate>Fri, 05 Nov 2021 15:43:33 +0900</lastBuildDate>
+    <pubDate>Fri, 05 Nov 2021 18:45:50 +0900</pubDate>
+    <lastBuildDate>Fri, 05 Nov 2021 18:45:50 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Python Coding Style을 정하자 chapter 2 !</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#python-coding-style을-정하자-두번째&quot; id=&quot;markdown-toc-python-coding-style을-정하자-두번째&quot;&gt;Python Coding Style을 정하자, 두번째!&lt;/a&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;#타입힌트&quot; id=&quot;markdown-toc-타입힌트&quot;&gt;타입힌트&lt;/a&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;#타입힌트-예&quot; id=&quot;markdown-toc-타입힌트-예&quot;&gt;타입힌트 예)&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#리스트-컴프리핸션list-comprehension&quot; id=&quot;markdown-toc-리스트-컴프리핸션list-comprehension&quot;&gt;리스트 컴프리핸션(List Comprehension)&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h1 id=&quot;python-coding-style을-정하자-두번째&quot;&gt;Python...</description>
+        <pubDate>Sat, 06 Nov 2021 04:43:59 +0900</pubDate>
+        <link>http://egyeom.github.io/development/2021/11/06/CodingStyle02.html</link>
+        <guid isPermaLink="true">http://egyeom.github.io/development/2021/11/06/CodingStyle02.html</guid>
+        
+        <category>study</category>
+        
+        <category>python</category>
+        
+        
+        <category>Development</category>
+        
+      </item>
     
       <item>
         <title>Python Coding Style을 정하자 chapter 1 !</title>
