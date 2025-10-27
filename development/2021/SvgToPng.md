@@ -28,7 +28,7 @@ exe가 있는 폴더(예: C:\\Program Files\\Inkscape 또는 C:\\Program Files\\
 
 1\. Windows 키 → "환경 변수 편집" 또는 "Edit the system environment variables" 실행
 
-[##_Image|kage@0Er9f/dJMcadUAk4R/AAAAAAAAAAAAAAAAAAAAABtiKNljmgIvHbtABervnnraN3x8Pjz9hxjrXHOJZXW2/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1761922799&amp;allow_ip=&amp;allow_referer=&amp;signature=310VO03INFciQrPXsuEDHUC8p1Y%3D|CDM|1.3|{"originWidth":742,"originHeight":300,"style":"alignCenter","caption":"환경 변수 설정"}_##]
+https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2F0Er9f%2FdJMcadUAk4R%2FAAAAAAAAAAAAAAAAAAAAABtiKNljmgIvHbtABervnnraN3x8Pjz9hxjrXHOJZXW2%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1761922799%26allow_ip%3D%26allow_referer%3D%26signature%3D310VO03INFciQrPXsuEDHUC8p1Y%253D
 
 2\. System Properties 창에서 "Environment Variables..." 클릭.
 
