@@ -32,7 +32,8 @@ https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog
 
 2\. System Properties 창에서 "Environment Variables..." 클릭.
 
-[##_Image|kage@bawUKC/dJMcagqeUwW/AAAAAAAAAAAAAAAAAAAAAA1B0_gaILNnHvDQpT92Ce37rCrDfk15belAw1DFWy4E/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1761922799&amp;allow_ip=&amp;allow_referer=&amp;signature=GfrMHsgDBb6JoyHnqc2JCsNqQpI%3D|CDM|1.3|{"originWidth":464,"originHeight":522,"style":"alignCenter"}_##]
+https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbawUKC%2FdJMcagqeUwW%2FAAAAAAAAAAAAAAAAAAAAAA1B0_gaILNnHvDQpT92Ce37rCrDfk15belAw1DFWy4E%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1761922799%26allow_ip%3D%26allow_referer%3D%26signature%3DGfrMHsgDBb6JoyHnqc2JCsNqQpI%253D
+<img width="464" height="522" alt="image" src="https://github.com/user-attachments/assets/cc27def7-893c-4fe4-bd95-95fbad7e5858" />
 
 3\. User variables (또는 System variables)에서 Path 선택 → Edit → New → inkscape.exe가 있는 폴더 경로를 붙여넣기(예: C:\\Program Files\\Inkscape\\bin 또는 C:\\Program Files\\Inkscape) → 확인.
 
