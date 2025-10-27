@@ -27,23 +27,21 @@ exe가 있는 폴더(예: C:\\Program Files\\Inkscape 또는 C:\\Program Files\\
 **GUI(환경 변수 편집)로 추가하는 방법**
 
 1\. Windows 키 → "환경 변수 편집" 또는 "Edit the system environment variables" 실행
-
-https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2F0Er9f%2FdJMcadUAk4R%2FAAAAAAAAAAAAAAAAAAAAABtiKNljmgIvHbtABervnnraN3x8Pjz9hxjrXHOJZXW2%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1761922799%26allow_ip%3D%26allow_referer%3D%26signature%3D310VO03INFciQrPXsuEDHUC8p1Y%253D
+<img width="742" height="300" alt="image" src="https://github.com/user-attachments/assets/29fc2000-6194-4b86-b453-554e7dd85d4f" />
 
 2\. System Properties 창에서 "Environment Variables..." 클릭.
 
-https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbawUKC%2FdJMcagqeUwW%2FAAAAAAAAAAAAAAAAAAAAAA1B0_gaILNnHvDQpT92Ce37rCrDfk15belAw1DFWy4E%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1761922799%26allow_ip%3D%26allow_referer%3D%26signature%3DGfrMHsgDBb6JoyHnqc2JCsNqQpI%253D
 <img width="464" height="522" alt="image" src="https://github.com/user-attachments/assets/cc27def7-893c-4fe4-bd95-95fbad7e5858" />
 
 3\. User variables (또는 System variables)에서 Path 선택 → Edit → New → inkscape.exe가 있는 폴더 경로를 붙여넣기(예: C:\\Program Files\\Inkscape\\bin 또는 C:\\Program Files\\Inkscape) → 확인.
 
-[##_Image|kage@X4Zbv/dJMcagKxFLR/AAAAAAAAAAAAAAAAAAAAAMkrHP_SMag_AQPfy-S7XEBirUUVJIG-yqWuW76I5O2L/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1761922799&amp;allow_ip=&amp;allow_referer=&amp;signature=E6qqqaf0Fbqr5VfdC5Ag2SPQc80%3D|CDM|1.3|{"originWidth":515,"originHeight":197,"style":"alignCenter"}_##]
+<img width="515" height="197" alt="image" src="https://github.com/user-attachments/assets/ac7f4bde-9121-4a81-b4ea-7d6b9271c9cb" />
 
 참고: User PATH는 현재 사용자만 적용, System PATH는 모든 사용자(관리자 권한 필요).
 
 cmd창을 껐다 키고, 아래 명령어를 쳐서 화면처럼 나오면 제대로 설정된거다
 
-[##_Image|kage@mhQI4/dJMcajtJpZs/AAAAAAAAAAAAAAAAAAAAAOrS-o8OeCsusO0p3n-08rYqD_sGjctLr2yFRQ6rZEtI/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1761922799&amp;allow_ip=&amp;allow_referer=&amp;signature=TNE07mSL4HbVLSo2aPyB6JJEjlU%3D|CDM|1.3|{"originWidth":508,"originHeight":128,"style":"alignCenter"}_##]
+<img width="508" height="128" alt="image" src="https://github.com/user-attachments/assets/2c26d8de-472d-4b26-b10c-988720a0bce1" />
 
 이제 사용하는 방법은 cmd 환경에서 아래처럼 명령어를 치면 된다.
 
